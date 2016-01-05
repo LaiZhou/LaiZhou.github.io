@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spring LiveBean Graph</title>
+  </head>
+  <body>
+    
+    <script src="./viz.js"></script>
+    <script>
+    
+    document.body.innerHTML += Viz("digraph packages { node [shape=box]; rankdir=BT; ServiceA[style=filled,color=red] ServiceA -> ServiceB [weight=4,color=red] } ");
+
+    </script>
+    
+  </body>
+</html>
